@@ -16,6 +16,7 @@ $ npm start
 - [Exemplo de estrutura de projeto](https://github.com/hexacta/project-structure-sample)
 - [Using Version Control in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
 - [Configurações do android](https://docs.rocketseat.dev)
+- [Configurando git vscode](https://www.youtube.com/watch?v=Fk12ELJ9Bww)
 
 # Introduction 
 TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
