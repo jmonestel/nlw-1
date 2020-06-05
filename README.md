@@ -10,6 +10,12 @@ Depois é possível iniciar os projetos WEB/SERVER no modo debug a partir da rai
 $ npm start
 ```
 
+Rodar na basta do servidor.
+Comando para rodar migration do servidor:
+```
+$ npx knex migrate:latest --knexfile knexfile.ts
+```
+
 ## Links de ajuda
 - [Cloud MongoDB](https://cloud.mongodb.com/)
 - [GitHub Juan](https://github.com/jmonestel)
@@ -17,6 +23,9 @@ $ npm start
 - [Using Version Control in VS Code](https://code.visualstudio.com/docs/editor/versioncontrol)
 - [Configurações do android](https://docs.rocketseat.dev)
 - [Configurando git vscode](https://www.youtube.com/watch?v=Fk12ELJ9Bww)
+
+- [Knex](http://knexjs.org/)
+
 
 # Introduction 
 TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 

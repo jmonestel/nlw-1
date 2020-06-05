@@ -1,25 +1,8 @@
-import express from 'express'
+import express from 'express';
+import routes from './routes';
 
 const app = express();
-
-app.get('/users', (req, res) => {
-
-  console.log("teste")
-
-  res.json([
-    '.',
-    '..',
-    '...'
-  ]);
-});
-
-app.post('/users', (req, res) => {
-  const user = {
-    name: 'Juan',
-    email: 'juan@email.com'
-  }
-
-  return res.json(user);
-});
+app.use(express.json()); //para interpretar requisições json
+app.use(routes);
 
 app.listen(3333);
