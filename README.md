@@ -10,10 +10,9 @@ Depois é possível iniciar os projetos WEB/SERVER no modo debug a partir da rai
 $ npm start
 ```
 
-Rodar na basta do servidor.
-Comando para rodar migration do servidor:
+Para atualização na base do server, rodar o comando abaixo (dentro da pasta server):
 ```
-$ npx knex migrate:latest --knexfile knexfile.ts
+$ npm run knex:migrate 
 ```
 
 ## Links de ajuda
