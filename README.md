@@ -15,6 +15,11 @@ Para atualização na base do server, rodar o comando abaixo (dentro da pasta se
 $ npm run knex:migrate 
 ```
 
+Para adicionar dados padrões na base do server (seed), rodar o comando abaixo (dentro da pasta server):
+```
+$ npm run knex:seed 
+```
+
 ## Links de ajuda
 - [Cloud MongoDB](https://cloud.mongodb.com/)
 - [GitHub Juan](https://github.com/jmonestel)
