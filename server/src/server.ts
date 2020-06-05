@@ -1,9 +1,11 @@
 import express from 'express';
+import cors from 'cors';
 import routes from './routes';
 
 import path from 'path';
 
 const app = express();
+app.use(cors()); //usado para definir dominios que vão acessar o server
 app.use(express.json()); //para interpretar requisições json
 app.use(routes);
 
