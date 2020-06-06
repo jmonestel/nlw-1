@@ -31,3 +31,5 @@ $ npm run knex:seed
 - [Configurando git vscode](https://www.youtube.com/watch?v=Fk12ELJ9Bww)
 
 - [Knex](http://knexjs.org/)
+- [Leaflet](https://leafletjs.com/)
+- [React-leaflet](https://react-leaflet.js.org/)
