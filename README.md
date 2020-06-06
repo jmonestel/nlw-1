@@ -33,3 +33,4 @@ $ npm run knex:seed
 - [Knex](http://knexjs.org/)
 - [Leaflet](https://leafletjs.com/)
 - [React-leaflet](https://react-leaflet.js.org/)
+- [API IBGE (estados e cidades)](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1)
