@@ -30,7 +30,12 @@ $ npm run knex:seed
 - [Configurações do android](https://docs.rocketseat.dev)
 - [Configurando git vscode](https://www.youtube.com/watch?v=Fk12ELJ9Bww)
 
+Links Web
 - [Knex](http://knexjs.org/)
 - [Leaflet](https://leafletjs.com/)
 - [React-leaflet](https://react-leaflet.js.org/)
 - [API IBGE (estados e cidades)](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1)
+
+Links Mobile
+- [Expo google-fonts](https://github.com/expo/google-fonts)
+- [React Navigation](https://reactnavigation.org/)
