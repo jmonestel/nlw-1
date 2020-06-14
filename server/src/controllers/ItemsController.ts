@@ -3,8 +3,6 @@ import {Request, Response} from 'express';
 
 class ItemsController {
 
-  
-
   async index(req: Request, res: Response) {
 
     const items = await knex('items').select('*');
@@ -13,7 +11,7 @@ class ItemsController {
       return {
         id: item.id,
         title: item.title,
-        image_url: `${process.env.APP_URL}/uploads/${item.image}`
+        image_url: `${process.env.API_URL}/uploads/${item.image}`
       }
     });
   
